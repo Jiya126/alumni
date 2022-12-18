@@ -1,19 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["*"],
-  theme: {
+  content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],  theme: {
     extend: {
       colors: {
         'clg-blue': '#0369a1',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
 
-module.exports = {
-  content: ['./src/**/*.{html,js}', './node_modules/tw-elements/dist/js/**/*.js'],
-  plugins: [
-    require('tw-elements/dist/plugin')
-  ]
-}
