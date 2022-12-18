@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "tw-elements": "^1.0.0-alpha12"
-  }
+  },
+  "name": "alumni",
+  "description": "",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiya126/alumni.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiya126/alumni/issues"
+  },
+  "homepage": "https://github.com/Jiya126/alumni#readme"
 }
